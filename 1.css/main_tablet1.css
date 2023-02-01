@@ -68,7 +68,8 @@
     #text{width: 50%; height:15%; display:flex; justify-content: center; align-items: center; z-index: 100; 
         flex-direction:column; margin: 0 auto; position:absolute; top:67%; left: 30%; }
     
-    #text span{ font-size: 25px; position:absolute; bottom:90px; left:100; color: white; font-family:'Heirof bold'; text-shadow: 1px 0 10px rgba(0, 0, 0, 0.781);}
+    #desktop-tt{ font-size: 25px; position:absolute; bottom:90px; left:100; color: white; font-family:'Heirof bold'; text-shadow: 1px 0 10px rgba(0, 0, 0, 0.781);}
+    #mobile-tt{ font-size: 25px;font-family:'Heirof bold'; text-shadow: 1px 0 10px rgba(0, 0, 0, 0.781); display:none;}
     #main-arrow{width: 58px; height: 50px; position:absolute; bottom:20px; left:100; color: white;
                 animation: mymove 1.5s infinite Alternate; cursor:pointer;
 
@@ -260,8 +261,9 @@
 
         #directortext{width: 80%; height: 300px; display:flex; flex-direction:column; margin:0 auto; font-size: 15px; 
             font-family: 'papyrus'; text-align: center;}
-        #directortext span{font-size:33px; padding: 10px 0 30px 0;  font-family:'Heirof bold'; 
+        #desktop-ditt{font-size:33px; padding: 10px 0 30px 0;  font-family:'Heirof bold'; 
             text-shadow: 1px 0 10px rgba(255, 255, 255, 0.493); margin:0 auto;}
+        #mobile-ditt{display:none;}
 
 
     #bg{width: 100%; height: 100%; background-color:black; background-image: url('../img/awardswallpaper.png'); background-position:center;
